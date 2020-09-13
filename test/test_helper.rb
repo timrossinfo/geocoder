@@ -252,6 +252,14 @@ module Geocoder
       end
     end
 
+    require 'geocoder/lookups/ipfind'
+    class Ipfind
+      private
+      def default_fixture_filename
+        "ipfind_8_8_8_8"
+      end
+    end
+
     require 'geocoder/lookups/geoip2'
     class Geoip2
       private

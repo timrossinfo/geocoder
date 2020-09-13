@@ -538,6 +538,16 @@ IP Address Lookups
 * **Terms of Service**: https://ipgeolocation/tos
 * **Notes**: To use Ipgeolocation set `Geocoder.configure(ip_lookup: :ipgeolocation, api_key: "your_ipgeolocation_api_key", use_https:true)`. Supports the optional params:  { excludes: "continent_code"}, {fields: "geo"}, {lang: "ru"}, {output: "xml"}, {include: "hostname"}, {ip: "174.7.116.0"}) (see API documentation for details).
 
+### IP Find (`:ipfind`)
+
+* **API key**: required (see https://ipfind.com)
+* **Quota**: 100 requests/day for free, then upgrade to a paid plan (see https://ipfind.com/pricing)
+* **Region**: world
+* **SSL support**: yes
+* **Languages**: over 186 languages
+* **Documentation**: https://ipfind.com/docs
+* **Terms of Service**: https://ipfind.com/terms
+
 Local IP Address Lookups
 ------------------------
 
